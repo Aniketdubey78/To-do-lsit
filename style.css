@@ -1,0 +1,42 @@
+.todo-container {
+  width: 400px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #6e54f7, #8778d9);
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #f75c5c;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f44343;
+}
